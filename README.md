@@ -65,7 +65,7 @@ Asegúrate de tener instalados los siguientes programas y herramientas:
     "username": "example",
     "password": "example_password"
    }
-## **Paso 2: Clonar el Repositorio**
+## **Paso 3: Configurar el Frontend (Flutter)**
 1. Ve al directorio del frontend:
    ```bash
     cd D:\Moviles\api_rest_app
@@ -76,8 +76,9 @@ Asegúrate de tener instalados los siguientes programas y herramientas:
 4. Ejecuta la aplicación:
    ```bash
    flutter run
-5. Verifica que la app se conecte correctamente al backend. Puedes ingresar credenciales para probar el login. 
-## **Paso 2: Clonar el Repositorio**
+5. Verifica que la app se conecte correctamente al backend. Puedes ingresar credenciales para probar el login.
+   
+## **Paso 4: Validación de Tokens (Opcional)**
 1. Modifica el archivo _login.php_ para añadir endpoints protegidos que validen el token JWT.
 2. En la app Flutter, incluye lógica para manejar tokens en solicitudes futuras.
 
